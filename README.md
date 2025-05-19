@@ -4,7 +4,7 @@ Simple application to serve various vision models via http.
 
 ### Serving Models
 
-See the individual READMEs for each model under the models/ directory. Each model server has a corresponding Docker bringup which downloads and caches any required weights.
+See the individual READMEs for each model under the [models directories](./models/). Each model server has a corresponding Docker bringup which downloads and caches any required weights.
 
 ### Getting started
 
