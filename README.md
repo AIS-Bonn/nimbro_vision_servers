@@ -1,4 +1,4 @@
-# nimbro_vision_server
+# nimbro_vision_servers
 
 Simple application to serve various vision models via http.
 
@@ -15,19 +15,19 @@ If you would like to use the visualization functions there, install this package
 ### Setup
 
 ```
-git clone https://git.ais.uni-bonn.de/athome/nimbro_vision_server.git
+git clone https://github.com/AIS-Bonn/nimbro_vision_servers.git
 ```
 
 ```
-cd nimbro_vision_server
+cd nimbro_vision_servers
 ```
 
 ```
-conda create -y -n nimbro_vision_server python=3.10
+conda create -y -n nimbro_vision_servers python=3.10
 ```
 
 ```
-conda activate nimbro_vision_server
+conda activate nimbro_vision_servers
 ```
 
 ```
