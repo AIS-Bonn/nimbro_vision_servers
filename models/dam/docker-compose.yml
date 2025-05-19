@@ -1,0 +1,30 @@
+services:
+  dam:
+    build:
+      context: ../..                        
+      dockerfile: models/dam/docker/Dockerfile
+    image: dam
+
+    gpus: all
+
+    ports:
+      - "${DAM_PORT:-8000}:${DAM_PORT:-8000}"
+
+    volumes:
+      - ../..:/app:rw
+      - ../../cache:/cache:rw
+      - ./docker/include/entrypoint.sh:/usr/local/bin/entrypoint.sh:ro
+
+    environment:
+      - DAM_PORT=${DAM_PORT:-8000}
+      - DAM_TOKEN=${DAM_TOKEN}
+      - DAM_PRELOAD_FLAVOR=${DAM_PRELOAD_FLAVOR:-}
+
+    command: >
+      sh -c '
+        exec dam-server \
+          --host 0.0.0.0 \
+          --port ${DAM_PORT} \
+          --token "${DAM_TOKEN}" \
+          ${DAM_PRELOAD_FLAVOR:+--preload_flavor "${DAM_PRELOAD_FLAVOR}"}
+      '

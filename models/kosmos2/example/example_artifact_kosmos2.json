@@ -1,0 +1,126 @@
+{
+    "artifact": {
+        "detections": [
+            [
+                {
+                    "box_xyxy": [
+                        528,
+                        48,
+                        848,
+                        240
+                    ],
+                    "label": "a hat"
+                },
+                {
+                    "box_xyxy": [
+                        528,
+                        240,
+                        912,
+                        592
+                    ],
+                    "label": "scarf"
+                },
+                {
+                    "box_xyxy": [
+                        144,
+                        16,
+                        528,
+                        1008
+                    ],
+                    "label": "a campfire"
+                }
+            ],
+            [
+                {
+                    "box_xyxy": [
+                        20,
+                        11,
+                        1260,
+                        708
+                    ],
+                    "label": "A wooden table"
+                },
+                {
+                    "box_xyxy": [
+                        860,
+                        33,
+                        1020,
+                        303
+                    ],
+                    "label": "various items"
+                },
+                {
+                    "box_xyxy": [
+                        580,
+                        213,
+                        740,
+                        416
+                    ],
+                    "label": "various items"
+                },
+                {
+                    "box_xyxy": [
+                        820,
+                        393,
+                        1220,
+                        686
+                    ],
+                    "label": "various items"
+                },
+                {
+                    "box_xyxy": [
+                        20,
+                        33,
+                        500,
+                        416
+                    ],
+                    "label": "various items"
+                },
+                {
+                    "box_xyxy": [
+                        20,
+                        281,
+                        260,
+                        461
+                    ],
+                    "label": "a can"
+                },
+                {
+                    "box_xyxy": [
+                        580,
+                        326,
+                        1060,
+                        551
+                    ],
+                    "label": "a fork"
+                },
+                {
+                    "box_xyxy": [
+                        780,
+                        371,
+                        1220,
+                        686
+                    ],
+                    "label": "spoon"
+                }
+            ],
+            [
+                {
+                    "box_xyxy": [
+                        672,
+                        490,
+                        2016,
+                        1002
+                    ],
+                    "label": "Corgis"
+                }
+            ]
+        ],
+        "captions": [
+            "An image of snowman with a hat and scarf sitting by a campfire in the snow.",
+            "Describe this image in detail:, A wooden table is covered with various items, including a can of soda, a fork, spoon, and a knife",
+            "Question: What type of dog is this? Answer: Corgi. Corgis are small, muscular, and energetic dogs that are known for their intelligence, loyalty, and love for their people."
+        ],
+        "model": "kosmos2"
+    }
+}

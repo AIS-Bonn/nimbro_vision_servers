@@ -1,0 +1,30 @@
+services:
+  kosmos2:
+    build:
+      context: ../..                        
+      dockerfile: models/kosmos2/docker/Dockerfile
+    image: kosmos2
+
+    gpus: all
+
+    ports:
+      - "${KOSMOS2_PORT:-8000}:${KOSMOS2_PORT:-8000}"
+
+    volumes:
+      - ../..:/app:rw
+      - ../../cache:/cache:rw
+      - ./docker/include/entrypoint.sh:/usr/local/bin/entrypoint.sh:ro
+
+    environment:
+      - KOSMOS2_PORT=${KOSMOS2_PORT:-8000}
+      - KOSMOS2_TOKEN=${KOSMOS2_TOKEN}
+      - KOSMOS2_PRELOAD_FLAVOR=${KOSMOS2_PRELOAD_FLAVOR:-}
+
+    command: >
+      sh -c '
+        exec kosmos2-server \
+          --host 0.0.0.0 \
+          --port ${KOSMOS2_PORT} \
+          --token "${KOSMOS2_TOKEN}" \
+          ${KOSMOS2_PRELOAD_FLAVOR:+--preload_flavor "${KOSMOS2_PRELOAD_FLAVOR}"}
+      '

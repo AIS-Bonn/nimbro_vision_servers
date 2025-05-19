@@ -1,0 +1,121 @@
+{
+    "artifact": {
+        "detections": [
+            [
+                {
+                    "box_xyxy": [
+                        589,
+                        201,
+                        709,
+                        419
+                    ],
+                    "confidence": 0.776380181312561,
+                    "prompt": "a green softdrink can"
+                },
+                {
+                    "box_xyxy": [
+                        930,
+                        1,
+                        1045,
+                        172
+                    ],
+                    "confidence": 0.7414378523826599,
+                    "prompt": " a water bottle"
+                },
+                {
+                    "box_xyxy": [
+                        733,
+                        401,
+                        969,
+                        686
+                    ],
+                    "confidence": 0.4709976315498352,
+                    "prompt": "a fork"
+                },
+                {
+                    "box_xyxy": [
+                        615,
+                        338,
+                        869,
+                        538
+                    ],
+                    "confidence": 0.4410279393196106,
+                    "prompt": "a red spoon"
+                },
+                {
+                    "box_xyxy": [
+                        758,
+                        23,
+                        860,
+                        293
+                    ],
+                    "confidence": 0.38101181387901306,
+                    "prompt": "a bottle of sauce"
+                },
+                {
+                    "box_xyxy": [
+                        252,
+                        249,
+                        437,
+                        453
+                    ],
+                    "confidence": 0.3666236400604248,
+                    "prompt": "a box of flour"
+                },
+                {
+                    "box_xyxy": [
+                        282,
+                        41,
+                        553,
+                        416
+                    ],
+                    "confidence": 0.1981423795223236,
+                    "prompt": "a red can of pringles"
+                }
+            ],
+            [
+                {
+                    "box_xyxy": [
+                        2,
+                        419,
+                        580,
+                        716
+                    ],
+                    "confidence": 0.9075027704238892,
+                    "prompt": "a small brown rug"
+                },
+                {
+                    "box_xyxy": [
+                        522,
+                        124,
+                        558,
+                        163
+                    ],
+                    "confidence": 0.6487032175064087,
+                    "prompt": "a tiny yellow candle"
+                },
+                {
+                    "box_xyxy": [
+                        18,
+                        290,
+                        272,
+                        517
+                    ],
+                    "confidence": 0.5362202525138855,
+                    "prompt": "a blue bag of candy"
+                },
+                {
+                    "box_xyxy": [
+                        140,
+                        154,
+                        257,
+                        331
+                    ],
+                    "confidence": 0.25872695446014404,
+                    "prompt": "a blue and white carton of milk"
+                }
+            ]
+        ],
+        "model": "mmgroundingdino"
+    }
+}

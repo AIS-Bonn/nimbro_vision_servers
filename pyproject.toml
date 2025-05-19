@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nimbro-vision-server"
+version = "0.1.0"
+description = "Simple application to serve various vision models via http"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.95.0",
+  "uvicorn[standard]>=0.20",
+  "opencv-python>=4.8.0.74",
+  "numpy",
+  "pillow",
+  "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["nimbro_vision_server", "models.*"]

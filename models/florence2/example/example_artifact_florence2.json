@@ -1,0 +1,253 @@
+{
+    "artifact": {
+        "detections": [
+            [],
+            [],
+            [],
+            [
+                {
+                    "box_xyxy": [
+                        34,
+                        159,
+                        582,
+                        374
+                    ],
+                    "label": "a green car"
+                },
+                {
+                    "box_xyxy": [
+                        1,
+                        3,
+                        639,
+                        305
+                    ],
+                    "label": "a building"
+                }
+            ],
+            [
+                {
+                    "box_xyxy": [
+                        33,
+                        160,
+                        596,
+                        371
+                    ],
+                    "label": "car"
+                },
+                {
+                    "box_xyxy": [
+                        271,
+                        242,
+                        302,
+                        246
+                    ],
+                    "label": "door handle"
+                }
+            ],
+            [
+                {
+                    "box_xyxy": [
+                        33,
+                        160,
+                        596,
+                        371
+                    ],
+                    "label": "turquoise Volkswagen Beetle"
+                },
+                {
+                    "box_xyxy": [
+                        271,
+                        242,
+                        302,
+                        246
+                    ],
+                    "label": "door handle"
+                }
+            ],
+            [
+                {
+                    "box_xyxy": [
+                        33,
+                        160,
+                        596,
+                        371
+                    ]
+                },
+                {
+                    "box_xyxy": [
+                        454,
+                        276,
+                        552,
+                        370
+                    ]
+                },
+                {
+                    "box_xyxy": [
+                        95,
+                        280,
+                        198,
+                        371
+                    ]
+                },
+                {
+                    "box_xyxy": [
+                        66,
+                        266,
+                        86,
+                        295
+                    ]
+                },
+                {
+                    "box_xyxy": [
+                        271,
+                        242,
+                        302,
+                        246
+                    ]
+                },
+                {
+                    "box_xyxy": [
+                        491,
+                        183,
+                        519,
+                        187
+                    ]
+                },
+                {
+                    "box_xyxy": [
+                        408,
+                        308,
+                        413,
+                        320
+                    ]
+                },
+                {
+                    "box_xyxy": [
+                        402,
+                        212,
+                        409,
+                        219
+                    ]
+                },
+                {
+                    "box_xyxy": [
+                        509,
+                        172,
+                        514,
+                        176
+                    ]
+                }
+            ],
+            [
+                {
+                    "box_xyxy": [
+                        33,
+                        158,
+                        582,
+                        374
+                    ],
+                    "label": "a green car"
+                }
+            ],
+            [],
+            [],
+            [
+                {
+                    "box_xyxy": [
+                        36,
+                        160,
+                        578,
+                        372
+                    ],
+                    "mask": "iVBORw0KGgoAAAANSUhEUgAAAh4AAADUCAAAAAD2RHVtAAAFhElEQVR4Ae3BB4LbOBQFwe77H/qt7XWYwCCKgEQQv0pKWSU3FlqQecndhG5kNnIX4WVkFjK+8A4yARlaeCu5ORlWuAS5MRlSuBS5KRlPuCC5IxlMuC65GxlIuDy5FRlFGIPciIwgjERuQ64vDEbuQq4ujEduQq4sDEruQS4sDEtuQS4qjE3uQK4pDE7uQK4ojE9uQC4o3IDcgFxMuAsZn1xKuBEZnlxHuBcZnlxFuB0ZnVxDuCMZnFxCuCUZnFxAuCsZm7xfuC8ZmrxbuDMZmrxZuDcZmbxXuDkZmbxVuD0ZmLxTmICMS94pTEDGJW8UpiDDkrcJk5BhyZuEaciw5C3CTGRU8g5hLjIoeYMwGxmTvFyYj4xJXi3MSIYkLxbmJCOS1wqTkhHJS4VpyYDkhcLMZDzyOmFqMh55mTA5GY68SpiejEZeJBQZjbxGKD/IWOQlQvlFhiKvEMpvMhJ5gVA+kGFId6F8JqOQ3kL5SgYhnYXyjQxC+gplgYxBugplkQxBOgpljYxAugnlGLka6SSUZuRNpItQepDXkg5C6UpeRNoL5SWkN2kulFeSfqS1UF5O+pDGQnkL6UDaCuV9pDFpKpQ3k4akpVAuQFqRhkK5CGlC2gnlQuQ8aSaUi5GTpJVQrkdOkUZCuSh5mrQRynXJk6SJUK5MniMthHJ5cpw0EMoA5DA5L5QhyFFyWiijkGPkrFAGIkfISaGMRR4nJ4UyGHmYnBPKcORRckooA5IHyRmhjEkeIieEMip5hDwvlIHJPnlaKGOTPfK0UIYnm+RZodyErJEnhXIfskyeE8qtyBJ5Sig3IwvkuFBuSb6SQ0K5MflCjgjl7uQDOSKU+5O/5IBQpiC/yQGhTEJ+kQNCmYX8JAeEMgv5SQ4IZRrygxwQyjwE5GGhzERAHhHKdARkXygTEpBdocxIQPaEMiUB2RPKlARkTyhTEpAdocxJQHaEMicB2RbKpARkWyiTEpBtoUxKQLaFMikB2RbKpARkWyiTEpBtoUxKQLaFMikB2RbKpARkWyiTEpBtoUxKQHaEMicB2RHKnARkRyiTEmRPKJMS2RPKpET2hDIpkT2hzErZE8qslD2hzErZE8qslD2hzErZE8qslB2hTEvZEcq0lG2hzEvZFMrElD9CKZ8pv4RSvlEglLJEIZSySAmlLFNCKcuUUMoyJZSySCSUskgklLJIJJSySCSUskgklLJIJJSyTAmlLFNCKcuUUMoyJZSyTPkhlPKNIB+FUn6SX+STUGYky+SzUOYjK+SzUOYjK+SzUOYjK+STUCYkK+SjUGYkK+SDUKYkK+SDUKYkK+SDUC5HCJ3JCvkglKuRH0JfskI+CuVa5KfQl6yQT8ID5LfQnYSJyS+hK1kj68JX8knoTX4Is5L/ha5kjWwIX8hnoS/5JcxJfgtdyRrZEv6SJaEn+V+YkfwVupI1ck7oSP4IdyZ7QkeySs4JHckHYZUMInwnDwgdySo5J3QkdxXkkNCPrJJzQj9S/gj9yCo5J3Qj5Z/Qi6yTc0I3Uv4Jvcg6OSn0IuWf0IlskJNCL1L+CZ3IBjkr9CHlo9CHbJCzQhdSPgldyBY5K3Qh5bPQgWyS00IHUr4K7ckmOS80J+Wb0JxskwZCa1K+C63JNmkgtCZlQWhLdkgDoTEpS0JTskdaCE1JWRYakl3SRGhIyprQjOyTNkIzUtaFVmSfNBIakbIltCEPkFZCE1K2hRbkEdJMaEDKnnCePETaCadJ2RfOksdIQ+EsKY8Ip8iDpKVwjpTHhBPkUdJUOEPKo8LT5GHSVnialEPCM+QAaS08RcpR4TA5RNoLh0l5QjhGDpIewhFSnhYeJodJH+FRUs4JD5BnSC/hAVJaCJvkSdJR2CLl6qSUVf8BHN0F5LD8BtMAAAAASUVORK5CYII=",
+                    "label": "a green car"
+                }
+            ],
+            [
+                {
+                    "box_xyxy": [
+                        36,
+                        160,
+                        578,
+                        372
+                    ],
+                    "mask": "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"
+                }
+            ],
+            [],
+            [
+                {
+                    "box_xyxy": [
+                        167,
+                        50,
+                        375,
+                        115
+                    ],
+                    "label": "</s>CUDA"
+                },
+                {
+                    "box_xyxy": [
+                        144,
+                        120,
+                        375,
+                        151
+                    ],
+                    "label": "FOR ENGINEERS"
+                },
+                {
+                    "box_xyxy": [
+                        115,
+                        165,
+                        376,
+                        184
+                    ],
+                    "label": "An Introduction to High-Performance"
+                },
+                {
+                    "box_xyxy": [
+                        239,
+                        184,
+                        376,
+                        204
+                    ],
+                    "label": "Parallel Computing"
+                },
+                {
+                    "box_xyxy": [
+                        265,
+                        440,
+                        376,
+                        457
+                    ],
+                    "label": "DUANE STORTI"
+                },
+                {
+                    "box_xyxy": [
+                        250,
+                        459,
+                        376,
+                        475
+                    ],
+                    "label": "METE YURTOGLU"
+                }
+            ]
+        ],
+        "captions": [
+            "a green car parked in front of a yellow building",
+            "The image shows a green Volkswagen Beetle parked in front of a yellow building with two brown doors, surrounded by trees and a clear blue sky.",
+            "The image shows a vintage Volkswagen Beetle car parked on a cobblestone street in front of a yellow building with two wooden doors. The car is painted in a bright turquoise color and has a white stripe running along the side. The doors are made of wood and have a rustic, weathered look. The building behind the car is also painted in the same shade of yellow and has two large windows. The sky is blue and there are trees in the background. The overall mood of the image is peaceful and serene.",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "car",
+            "turquoise Volkswagen Beetle",
+            null,
+            null,
+            "CUDA\nFOR ENGINEERS\nAn Introduction to High-Performance\nParallel Computing\nDUANE STORTI\nMETE YURTOGLU",
+            null
+        ],
+        "model": "florence2"
+    }
+}

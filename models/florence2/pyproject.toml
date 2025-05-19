@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nimbro-vision-server-florence2"
+version = "0.1.0"
+description = "Florence-2 adapter for Nimbro Vision Server"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "opencv-python>=4.5",    # for cv2
+  "numpy>=1.21",           # for array ops
+  "Pillow>=9.0",           # for image I/O
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["florence2"]
+
+[project.scripts]
+florence2-server = "florence2.server:main"

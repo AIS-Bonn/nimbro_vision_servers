@@ -1,0 +1,30 @@
+services:
+  florence2:
+    build:
+      context: ../..                        
+      dockerfile: models/florence2/docker/Dockerfile
+    image: florence2
+
+    gpus: all
+
+    ports:
+      - "${FLORENCE2_PORT:-8000}:${FLORENCE2_PORT:-8000}"
+
+    volumes:
+      - ../..:/app:rw
+      - ../../cache:/cache:rw
+      - ./docker/include/entrypoint.sh:/usr/local/bin/entrypoint.sh:ro
+
+    environment:
+      - FLORENCE2_PORT=${FLORENCE2_PORT:-8000}
+      - FLORENCE2_TOKEN=${FLORENCE2_TOKEN}
+      - FLORENCE2_PRELOAD_FLAVOR=${FLORENCE2_PRELOAD_FLAVOR:-}
+
+    command: >
+      sh -c '
+        exec florence2-server \
+          --host 0.0.0.0 \
+          --port ${FLORENCE2_PORT} \
+          --token "${FLORENCE2_TOKEN}" \
+          ${FLORENCE2_PRELOAD_FLAVOR:+--preload_flavor "${FLORENCE2_PRELOAD_FLAVOR}"}
+      '

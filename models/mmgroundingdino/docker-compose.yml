@@ -1,0 +1,31 @@
+services:
+  mmgroundingdino:
+    build:
+      context: ../..                        
+      dockerfile: models/mmgroundingdino/docker/Dockerfile
+    image: mmgroundingdino
+
+    gpus: all
+
+    ports:
+      - "${MMGROUNDINGDINO_PORT:-8000}:${MMGROUNDINGDINO_PORT:-8000}"
+
+    volumes:
+      - ../..:/app:rw
+      - ../../cache:/cache:rw
+      - ./docker/include/download_nltk_models.py:/usr/local/bin/download_nltk_models.py:ro
+      - ./docker/include/entrypoint.sh:/usr/local/bin/entrypoint.sh:ro
+
+    environment:
+      - MMGROUNDINGDINO_PORT=${MMGROUNDINGDINO_PORT:-8000}
+      - MMGROUNDINGDINO_TOKEN=${MMGROUNDINGDINO_TOKEN}
+      - MMGROUNDINGDINO_PRELOAD_FLAVOR=${MMGROUNDINGDINO_PRELOAD_FLAVOR:-}
+
+    command: >
+      sh -c '
+        exec mmgroundingdino-server \
+          --host 0.0.0.0 \
+          --port ${MMGROUNDINGDINO_PORT} \
+          --token "${MMGROUNDINGDINO_TOKEN}" \
+          ${MMGROUNDINGDINO_PRELOAD_FLAVOR:+--preload_flavor "${MMGROUNDINGDINO_PRELOAD_FLAVOR}"}
+      '

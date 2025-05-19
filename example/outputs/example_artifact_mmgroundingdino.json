@@ -1,0 +1,189 @@
+{
+    "artifact": {
+        "detections": [
+            [
+                {
+                    "box_xyxy": [
+                        349,
+                        306,
+                        483,
+                        408
+                    ],
+                    "confidence": 0.8487499952316284,
+                    "prompt": "an aluminium pan"
+                },
+                {
+                    "box_xyxy": [
+                        388,
+                        16,
+                        447,
+                        157
+                    ],
+                    "confidence": 0.82904452085495,
+                    "prompt": "a transparent vase"
+                },
+                {
+                    "box_xyxy": [
+                        485,
+                        334,
+                        581,
+                        437
+                    ],
+                    "confidence": 0.8001512289047241,
+                    "prompt": "a pink plastic bowl"
+                },
+                {
+                    "box_xyxy": [
+                        503,
+                        352,
+                        593,
+                        477
+                    ],
+                    "confidence": 0.7489053010940552,
+                    "prompt": "a rubber brush"
+                },
+                {
+                    "box_xyxy": [
+                        15,
+                        96,
+                        363,
+                        395
+                    ],
+                    "confidence": 0.6604588627815247,
+                    "prompt": "a black countertop oven"
+                },
+                {
+                    "box_xyxy": [
+                        100,
+                        356,
+                        281,
+                        477
+                    ],
+                    "confidence": 0.5457947850227356,
+                    "prompt": "a black robot gripper"
+                },
+                {
+                    "box_xyxy": [
+                        400,
+                        157,
+                        450,
+                        256
+                    ],
+                    "confidence": 0.5287586450576782,
+                    "prompt": "a brown sauce pack"
+                },
+                {
+                    "box_xyxy": [
+                        346,
+                        13,
+                        388,
+                        153
+                    ],
+                    "confidence": 0.5241309404373169,
+                    "prompt": "a carton of milk"
+                },
+                {
+                    "box_xyxy": [
+                        159,
+                        19,
+                        244,
+                        102
+                    ],
+                    "confidence": 0.5065958499908447,
+                    "prompt": "a brown chair"
+                },
+                {
+                    "box_xyxy": [
+                        287,
+                        0,
+                        525,
+                        106
+                    ],
+                    "confidence": 0.4703609049320221,
+                    "prompt": "a fern"
+                },
+                {
+                    "box_xyxy": [
+                        223,
+                        28,
+                        295,
+                        102
+                    ],
+                    "confidence": 0.41691112518310547,
+                    "prompt": "a brown chair"
+                },
+                {
+                    "box_xyxy": [
+                        486,
+                        0,
+                        638,
+                        116
+                    ],
+                    "confidence": 0.36105549335479736,
+                    "prompt": "a person in black clothing"
+                },
+                {
+                    "box_xyxy": [
+                        571,
+                        354,
+                        635,
+                        434
+                    ],
+                    "confidence": 0.304999440908432,
+                    "prompt": "a spice jar with a black lid"
+                },
+                {
+                    "box_xyxy": [
+                        398,
+                        239,
+                        534,
+                        321
+                    ],
+                    "confidence": 0.28495609760284424,
+                    "prompt": "a black robot gripper"
+                },
+                {
+                    "box_xyxy": [
+                        176,
+                        0,
+                        331,
+                        87
+                    ],
+                    "confidence": 0.24481388926506042,
+                    "prompt": "a small table in the background"
+                },
+                {
+                    "box_xyxy": [
+                        361,
+                        330,
+                        390,
+                        370
+                    ],
+                    "confidence": 0.2323146015405655,
+                    "prompt": "a slice of potato"
+                },
+                {
+                    "box_xyxy": [
+                        424,
+                        335,
+                        454,
+                        376
+                    ],
+                    "confidence": 0.22789309918880463,
+                    "prompt": "a slice of potato"
+                },
+                {
+                    "box_xyxy": [
+                        392,
+                        331,
+                        420,
+                        372
+                    ],
+                    "confidence": 0.20981131494045258,
+                    "prompt": "a slice of potato"
+                }
+            ]
+        ],
+        "model": "mmgroundingdino"
+    }
+}

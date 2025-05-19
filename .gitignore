@@ -1,0 +1,8 @@
+.vscode/*
+cache/*
+!cache/.gitkeep
+*.pyc
+*ipynb_checkpoints
+__pycache__/*
+*.egg-info
+.Trash*
