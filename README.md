@@ -8,9 +8,9 @@ See the individual READMEs for each model under the models/ directory. Each mode
 
 ### Getting started
 
-Click through example/usage.ipynb and the individual examples under the models/ directory. 
+Click through [usage.ipynb](./example/usage.ipynb) and the individual examples under the [models directories](./models/). 
 
-If you would like to use the visualization functions there, install this package as directed below.
+If you would like to use the helper functions there, install this package as directed below.
 
 ### Setup
 
@@ -43,4 +43,18 @@ pip install -e .
 This project is released under the **MIT License** - see [`LICENSE`](./LICENSE).
 
 The bringups for various models may **download and import code, model weights or other components
-from other projects**. These remain under **their own licences**, which may differ from MIT. 
+from other projects**. These remain under **their own licences**, which may differ from MIT.
+
+### Citation
+
+If you find this package useful, please cite
+
+[https://arxiv.org/abs/2503.16538](https://arxiv.org/abs/2503.16538)
+
+```bibtex
+@article{paetzold25detector,
+  author  = {Bastian P{\"a}tzold and Jan Nogga and Sven Behnke},
+  title   = {Leveraging Vision-Language Models for Open-Vocabulary Instance Segmentation and Tracking},
+  journal = {arXiv preprint arXiv:2503.16538},
+  year    = {2025}
+}
