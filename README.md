@@ -38,6 +38,10 @@ pip install jupyter
 pip install -e .
 ```
 
+### ROS2 Integration
+
+For use on a robot we recommend using the ros2 integration in [nimbro_api](https://github.com/AIS-Bonn/nimbro_api).
+
 ### License
 
 This project is released under the **MIT License** - see [`LICENSE`](./LICENSE).
